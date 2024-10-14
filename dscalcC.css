@@ -1,0 +1,34 @@
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+  
+input {
+    width: 100px;
+}
+
+input.error {
+    border: 2px solid red; /* Bordure rouge pour les champs d'entrée en erreur */
+    color: red; /* Texte en rouge pour les champs d'entrée en erreur */
+}
+
+label.error {
+    color: red; /* Texte en rouge pour les labels en erreur */
+}
+
+table {
+    width: 100%; /* Le tableau occupe 100% de la largeur de son conteneur */
+    border-collapse: collapse; /* Pour éviter les espaces entre les bordures */
+}
+
+td, th {
+    padding: 10px;
+    border-bottom: 1px solid #000; /* Ligne noire de 1px de largeur */
+    width: 25%; /* Chaque cellule occupe 25% de la largeur du tableau */
+}
+
+th {
+    text-align: left;
+}
